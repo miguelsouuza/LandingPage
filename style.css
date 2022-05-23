@@ -9,7 +9,7 @@
 }
 body{
     display: block;
-    background: radial-gradient(circle, rgba(55,55,55,1) 0%, rgba(163,157,150,1) 50%, rgba(69,70,71,1) 100%);
+    background-color:rgb(108, 4, 153);
 }
 .nav-header{
     display:flex;
@@ -17,15 +17,6 @@ body{
     align-items: center;
     gap:70px;
     padding:2px;
-    background-color: black;
-    border-radius: 2px 2px 2px 2px;
-    border: 1px solid black;
-    box-shadow: 1px 1px rgba(255, 255, 255, 0.562);
-    
-}
-.nav-img{
-    background-color: white;
-    padding: 10px;
 }
 .nav-img:hover{
     cursor: pointer;
@@ -34,8 +25,6 @@ body{
 .nav-item{
     text-decoration: double;
     height: 400;
-    border-left: 0.4px solid white;
-    border-right: 0.4px solid white;
     padding:10px;
     margin: 10px;
     color: white;
@@ -53,7 +42,6 @@ body{
     color: white;
     border-radius: 2px 2px 2px 2px;
     border-bottom: 0.4px solid black;
-    border-top: 0.4px solid black;
     margin-right:20px;
     margin-left: 20px;
 }
@@ -61,67 +49,31 @@ body{
     max-width: 800px;
 }
 .conteudo-img{
-    height:300px;
-    width:30%;
+    height:500px;
     margin-bottom: 30px;
     margin-top: 30px;
-    box-shadow: 1px 1px black;
 }
 .conteudo-titulo{
     font-size: 35px;
-    color: white;
+    color: #ffa200;
 }
+.conteudo-titulo-nav{
+    font-size: 35px;
+    color: #ffa200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo-titulo-nav:hover{
+    cursor:default;
+}  
 .conteudo-paragrafo{
     font-size: 20px;
-}
-.conteudo-secundario-titulo{
-    text-align: center;
-    margin-top: 10px;
-    border-bottom: 1px solid black;   
-}
-.conteudo-secundario-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 10px;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding:25px;
-    border-radius: 2px 2px 2px 2px;
-    margin-right:20px;
-    margin-left: 20px;
-}
-.conteudo-secundario-form-texto{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 10px;
-    border-radius: 2px 2px 2px 2px;
-}
-.conteudo-secundario-botoes{
-    display: flex;
-    justify-content: space-around;
-}
-input{
-    padding:5px;
-    border-radius: 2px 2px 2px;
-}
-input[type="reset"]:hover{
-    cursor: pointer;
-    background: rgba(18,10,143,1);
-    transform:scale(1.1);
-}
-input[type="submit"]:hover{
-    cursor: pointer;
-    background:rgba(18,10,143,1);
-    transform:scale(1.1);
 }
 .conteudo-principal-botao{
     border-radius: 2px 2px 2px;
     margin-top:5px;
     padding:8px;
+    background-color: #ffa200;
+    color: white;
     text-transform: uppercase;
 }
 .conteudo-principal-botao:hover{
@@ -138,4 +90,7 @@ input[type="submit"]:hover{
     display:flex;
     justify-content:left;
     align-items:flex-start;
+}
+.footer-conteudo-text{
+    color:white;
 }
